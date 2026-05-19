@@ -1,6 +1,10 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
+////////
+// Code written mainly by AI, thoroughly controlled and tested by a human
+////////
+
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define SERVO_FREQ 50 
 
