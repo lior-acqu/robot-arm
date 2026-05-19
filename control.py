@@ -2,6 +2,10 @@ import serial
 import time
 from pynput import keyboard
 
+########
+# Code written mainly by AI, thoroughly controlled and tested by a human
+########
+
 # CHANGE THIS to match your Arduino's port (e.g., 'COM3' on Windows or '/dev/ttyACM0' on Mac/Linux)
 SERIAL_PORT = '/dev/tty.usbmodem1401' 
 BAUD_RATE = 9600
