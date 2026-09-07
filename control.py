@@ -3,7 +3,7 @@ import time
 from pynput import keyboard
 
 # CHANGE THIS to match your Arduino's port (e.g., 'COM3' on Windows or '/dev/ttyACM0' on Mac/Linux)
-SERIAL_PORT = '/dev/tty.usbmodem1401' 
+SERIAL_PORT = '/dev/tty.usbmodem11101' 
 BAUD_RATE = 9600
 
 try:
@@ -15,7 +15,7 @@ except Exception as e:
     exit()
 
 def on_press(key):
-    time.sleep(0.02) # prevent flooding with signals
+    time.sleep(0.015) # prevent flooding with signals
     try:
         # Check which key was pressed and send a single character to Arduino
         if key.char == 'w': ser.write(b'W')
