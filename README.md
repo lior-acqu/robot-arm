@@ -43,4 +43,14 @@ I used eSUN's PLA+. I think that any regular filament (PLA, PETG) works just fin
 - Arduino UNO
 - PWM Servo Driver PCA9685
 ## Screws
-- A lot of M3 screws (6mm & 10mm length) with matching nuts.
+- All screws are M3 (6mm & 10mm length) with matching nuts.
+# Assembly
+The assembly is quite intuitive, because there is always only one part that fits into the other part. Only a few remarks are necessary.
+- The only place where you need 6mm M3 screws is when connecting the wrist motor to the gripper. In all other cases, 10mm is usually easier.
+- The electronics do not need to be screwed into the base. The inner walls are designed to ensure perfect fit for all parts.
+- In the base, there are some parts that are separated from the main part. Feel free to add weights into these parts. You can cover them with the printed weight caps.
+- Each motor needs an attachment piece. In the middle of this attachment piece, just use the screw that was delivered in the same package as the motor. The MG996R motors have a separate attachment piece (`MG996RAttachment.stl`). The other ones use `NormalMotorAttachment.stl`.
+- If the cables are too short for some motors, just use extension cables. I also did that.
+- The base and the gripper both have small pockets where you can insert the nuts to make it easier to screw everything together.
+- Be careful that all cables are plugged in correctly. 
+If you have some more questions, just send me a message on LinkedIn (https://www.linkedin.com/in/liorporath/).
