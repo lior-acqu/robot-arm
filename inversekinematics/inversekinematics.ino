@@ -32,7 +32,7 @@ float height = 10;
 
 // Over time, the angles of the specific parts might slightly shift. To make sure that the inverse kinematics is still working, you can enter the approx. corrections of the angles below (in deg). 
 // e.g. if shoulder_corr is 10, all calculated angles will be increased by 10 degrees.
-float shoulder_corr = 10;
+float shoulder_corr = 0;
 float elbow_corr = 0;
 float wrist_corr = 0;
 

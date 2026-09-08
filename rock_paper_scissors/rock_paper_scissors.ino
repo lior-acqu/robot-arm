@@ -81,19 +81,19 @@ void loop() {
   int choice = random(3);
   // do the characteristic rock-paper-scissors motion
   int m2[] = {2};
-  moveMotorsSmooth(m2, 1, 70, 100);
-  delay(500);
-  moveMotorsSmooth(m2, 1, 90, 100);
-  delay(500);
-  moveMotorsSmooth(m2, 1, 70, 100);
-  delay(500);
-  moveMotorsSmooth(m2, 1, 90, 100);
-  delay(500);
+  moveMotorsSmooth(m2, 1, 70, 150);
+  delay(600);
+  moveMotorsSmooth(m2, 1, 90, 150);
+  delay(600);
+  moveMotorsSmooth(m2, 1, 70, 150);
+  delay(600);
+  moveMotorsSmooth(m2, 1, 90, 150);
+  delay(600);
   moveMotorsSmooth(m2, 1, 80, 50);
   int m4[] = {4};
   // make move based on randomly selected number
   if (choice == 0) {
-    moveMotorsSmooth(m4, 1, 170, 50);
+    moveMotorsSmooth(m4, 1, 140, 50);
   } else if (choice == 1) {
     moveMotorsSmooth(m4, 1, 30, 50);
   } else {
@@ -111,9 +111,9 @@ void loop() {
   }
   delay(1000);
   // get ready for another round
-  moveMotorsSmooth(m2, 1, 150, 1000);
-  moveMotorsSmooth(m4, 1, 120, 100);
-  delay(500);
+  moveMotorsSmooth(m4, 1, 90, 1000);
+  moveMotorsSmooth(m2, 1, 120, 1000);
+  delay(600);
 }
 
 
