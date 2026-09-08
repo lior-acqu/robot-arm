@@ -39,7 +39,7 @@ I used eSUN's PLA+. I think that any regular filament (PLA, PETG) works just fin
 - 2x MG90S (by Miuzei)
 - 1x SG90
 ### Other Electronics
-- 10A 5V power supply (by Leicke, yes, it needs that much amps)
+- 10A 5V power supply (by Leicke, yes, it needs that much current)
 - Arduino UNO
 - PWM Servo Driver PCA9685
 ## Screws
