@@ -22,13 +22,13 @@ Then, you open the `control.py` script. Here, you will probably need to change t
 - The gripper uses T & G.
 # Known Issues
 The robot arm works well. The points below are just small improvements.
-1. Sometimes, the gripping motion does not work well. When it grabs a thin pen, the two gear racks sometimes lose contacts with their rails and the gripper gear. The pen then drops on the ground and the two gear racks are now a bit wider apart.
+1. Sometimes, the gripping motion does not work well. When it grabs a thin pen, the two gear racks sometimes lose contact with their rails and the gripper gear. The pen then drops on the ground and the two gear racks are now a bit wider apart.
 	- Possible fix: The clamps should not be at the very end of the gear rack. Instead, they should have a safe margin of 1-2cm to make sure the gear rack is still fully supported by the guardrails.
 2. Some parts are not designed in a way that they could be screwed in very tightly. They tend to be a bit loose.
 	- Possible fix: Change the parts so that they are a bit easier to assemble, make things a bit tighter where you can.
 # Materials
 ## 3D Parts
-The uploaded parts work well. I usually added -0.7mm of X-Y-contour-compensation to make sure that the parts fit.
+The uploaded parts work well. I usually added -0.07mm of X-Y-contour-compensation to make sure that the parts fit.
 Support is not needed, except for `ForearmBase.stl` and `UpperArmBase.stl`.
 My personal recommendation: Take my files only as an inspiration and design your own parts!
 ### Used Filament
@@ -47,7 +47,7 @@ I used eSUN's PLA+. I think that any regular filament (PLA, PETG) works just fin
 # Assembly
 The assembly is quite intuitive, because there is always only one part that fits into the other part. Only a few remarks are necessary.
 - The only place where you need 6mm M3 screws is when connecting the wrist motor to the gripper. In all other cases, 10mm is usually easier.
-- The electronics do not need to be screwed into the base. The inner walls are designed to ensure perfect fit for all parts.
+- The electronic parts do not need to be screwed into the base. The inner walls are designed to ensure perfect fit for all parts.
 - In the base, there are some parts that are separated from the main part. Feel free to add weights into these parts. You can cover them with the printed weight caps.
 - Each motor needs an attachment piece. In the middle of this attachment piece, just use the screw that was delivered in the same package as the motor. The MG996R motors have a separate attachment piece (`MG996RAttachment.stl`). The other ones use `NormalMotorAttachment.stl`.
 - If the cables are too short for some motors, just use extension cables. I also did that.
